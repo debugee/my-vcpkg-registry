@@ -2,7 +2,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO debugee/mytool
     REF "10.0"
-    SHA512 "8397b1c19cb32d64803c8972f9fc952ea262e5576d5934b20946a28714a2c8736c091d44fe8e1be17927fce94f46eb4b380dd09b45a61b43586505c5f0d7215e"
+    SHA512 "ec7c3b1c03aaeadf2af9bb84cdce9b751b4fa1e8121a3bad42a20cf528ec3f0011946292766e8944ef41c750e117158303b3faa682b79c46ffa3c83bd6484bed"
 )
 
 vcpkg_cmake_configure(

@@ -1,6 +1,7 @@
 {
   "name": "mylib",
   "version": "1.2.0",
+  "port-version": 1,
   "description": "My first custom vcpkg port for registry testing.",
   "homepage": "https://github.com",
   "dependencies": [
