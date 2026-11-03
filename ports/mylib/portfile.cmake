@@ -13,4 +13,5 @@ vcpkg_cmake_install()
 
 vcpkg_cmake_config_fixup(
     PACKAGE_NAME MyLibrary
+    CONFIG_PATH lib/cmake/MyLibrary
 )
