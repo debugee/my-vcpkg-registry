@@ -5,8 +5,12 @@ vcpkg_from_github(
     SHA512 "2c2aeeedb768fe7d0ab289949ac0af4500c50c1d71aaf4822bbe9269edbc13eef460c648ac44b72f7b292da7dac77cd10b050219cad2d33d029279396652f060"
 )
 
+string(COMPARE EQUAL "${VCPKG_LIBRARY_LINKAGE}" "dynamic" MYLIBRARY_BUILD_SHARED)
+
 vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"
+    OPTIONS
+        -DBUILD_SHARED_LIBS=${MYLIBRARY_BUILD_SHARED}
 )
 
 vcpkg_cmake_install()
