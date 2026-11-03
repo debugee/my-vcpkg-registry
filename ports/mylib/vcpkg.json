@@ -1,11 +1,10 @@
 {
-  "name": "mylib",
-  "version": "1.2.0",
-  "port-version": 2,
+  "name": "MyLibrary",
+  "version": "1.0.0",
+  "port-version": 0,
   "description": "My first custom vcpkg port for registry testing.",
   "homepage": "https://github.com",
   "dependencies": [
-    "jsoncpp",
     {
       "name": "vcpkg-cmake",
       "host": true
