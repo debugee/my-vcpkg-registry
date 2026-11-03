@@ -1,5 +1,5 @@
 {
-  "name": "MyLibrary",
+  "name": "mylib",
   "version": "1.0.0",
   "port-version": 0,
   "description": "My first custom vcpkg port for registry testing.",
