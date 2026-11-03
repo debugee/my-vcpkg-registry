@@ -1,6 +1,7 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO debugee/MyLibrary
+    REF master
 )
 
 vcpkg_cmake_configure(
