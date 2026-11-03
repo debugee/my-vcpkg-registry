@@ -1,0 +1,9 @@
+{
+  "name": "mylib",
+  "version": "1.0.0",
+  "description": "My first custom vcpkg port for registry testing.",
+  "homepage": "https://github.com",
+  "dependencies": [
+    "jsoncpp"
+  ]
+}
