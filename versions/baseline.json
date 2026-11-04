@@ -1,8 +1,8 @@
 {
   "default": {
     "mylib": {
-      "baseline": "1.3.0",
-      "port-version": 10
+      "baseline": "2.0",
+      "port-version": 0
     }
   }
 }
